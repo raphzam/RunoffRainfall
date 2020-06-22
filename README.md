@@ -1,4 +1,4 @@
-Exercise 2: How much water runs off the roof?
+#Runoff Rainfall
 
 IPO
 
@@ -11,8 +11,9 @@ amount of water run off (in gallons)
 Process:
 BEGIN
 
-Getting the input
-	Prompt user for length of roof
+GETTING THE INPUT
+    
+    Prompt user for length of roof
 	Get length
 	multiply length by 12 to get length in inches
 	store result in lengthInches
@@ -24,12 +25,14 @@ Getting the input
 	get rainFall
 
 CALCULATING THE RESULT
+	
 	Multiply lengthInches * widthInches * rainFall
 		store result in cubicWater
 	Divide cubicWater by 231
 		store result in gallonWater
 
 OUTPUT
+	
 	Display gallonWater
 
 END
