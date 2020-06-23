@@ -26,7 +26,7 @@ public class RunoffRainfall {
         double gallonWater = cubicWater / 231;      //convert cubic inches of water to gallons
 
 //        DISPLAYING OUTPUT
-        System.out.println("The runoff is " + gallonWater + " gallons of water." );
+        System.out.printf("The runoff is %.2f gallons of water.\n", gallonWater);
 
 
     }

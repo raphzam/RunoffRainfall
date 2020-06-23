@@ -1,12 +1,19 @@
 #Runoff Rainfall
 
+This program calculates the amount of rain water that will run off of a roof based on user submitted roof dimensions and rainfall.    
+    
+
+
 IPO
 
 Input
-Dimensions of the roof
-number of inches of rainfall
+
+    Dimensions of the roof
+    number of inches of rainfall
+
 Output
-amount of water run off (in gallons)
+    
+    amount of water run off (in gallons)
 
 Process:
 BEGIN
